@@ -1,55 +1,62 @@
-// ================= DATA PRODUK =================
-const productList = document.getElementById("productList");
-const searchInput = document.getElementById("searchInput");
+document.addEventListener("DOMContentLoaded", function () {
 
-// ambil URL halaman
-const page = window.location.href;
+  const productList = document.getElementById("productList");
+  const searchInput = document.getElementById("searchInput");
 
-// tentukan kategori
-let category = "";
+  // CEK ELEMENT (biar tidak error)
+  if (!productList || !searchInput) return;
 
-// ABAYA (index atau abaya page)
-if (page.includes("index.html") || page.endsWith("/") || page.includes("abaya")) {
-  category = "abaya";
-}
+  // DETEKSI HALAMAN
+  const page = window.location.href.toLowerCase();
 
-// FASHION
-else if (page.includes("fashion")) {
-  category = "fashion";
-}
+  let category = "abaya"; // default aman
 
-// JAKET
-else if (page.includes("jaket")) {
-  category = "jaket";
-}
+  if (page.includes("fashion")) {
+    category = "fashion";
+  } else if (page.includes("jaket")) {
+    category = "jaket";
+  }
 
-// filter berdasarkan kategori
-const filteredProducts = products.filter(p => p.category === category);
+  // RENDER PRODUK
+  function renderProducts(list) {
+    if (!list || list.length === 0) {
+      productList.innerHTML = "<p>Produk tidak ditemukan</p>";
+      return;
+    }
 
-// fungsi render produk
-function render(data) {
-  productList.innerHTML = data.map(p => `
-    <div class="card">
-      <img src="${p.image}" alt="${p.name}">
-      <div class="card-content">
-        <h3>${p.name}</h3>
-        <p>${p.price}</p>
-        <a class="btn-shopee" href="${p.link}" target="_blank">Beli Sekarang</a>
+    productList.innerHTML = list.map(p => `
+      <div class="card">
+        <img src="${p.image}" alt="${p.name}">
+        <div class="card-content">
+          <h3>${p.name}</h3>
+          <p>${p.price}</p>
+          <a class="btn-shopee" href="${p.link}" target="_blank">Beli Sekarang</a>
+        </div>
       </div>
-    </div>
-  `).join("");
-}
+    `).join("");
+  }
 
-// render awal (kategori saja)
-render(filteredProducts);
+  // FILTER PRODUK
+  function filterProducts() {
+    const keyword = searchInput.value.toLowerCase();
 
-// ================= SEARCH GLOBAL =================
-searchInput.addEventListener("input", function () {
-  const keyword = this.value.toLowerCase();
+    let result;
 
-  const result = filteredProducts.filter(p =>
-    p.name.toLowerCase().includes(keyword)
-  );
+    if (keyword === "") {
+      result = products.filter(p => p.category === category);
+    } else {
+      result = products.filter(p =>
+        p.name.toLowerCase().includes(keyword)
+      );
+    }
 
-  render(result);
+    renderProducts(result);
+  }
+
+  // LOAD AWAL (WAJIB BIAR LANGSUNG MUNCUL)
+  filterProducts();
+
+  // EVENT SEARCH
+  searchInput.addEventListener("keyup", filterProducts);
+
 });
