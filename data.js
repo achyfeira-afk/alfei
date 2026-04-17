@@ -261,14 +261,6 @@ const products = [
     image: "https://down-aka-id.img.susercontent.com/id-11134207-7rbka-ma330au13k8jdb.webp"
   },
  {
-    category: "jaket",
-    name: "JAKET JEANS CEWEK MURAH JUMBO OVER SIZE M - XXXL LD 120cm MUAT 95KG JAKET JEANS WANITA JAKET Nanstore09",
-    price: "Rp108.300",
-    link: "https://s.shopee.co.id/AUq2mT8LZc",
-    image: "https://i.imgur.com/aI7mmbO.jpeg"
-  },
-
- {
     category: "fashion",
     name: "Sarung BHS Classic Gold Premium motif DGA SSF DKA GOLD Sarung Tenun Halus Songket Pria Dewasa",
     price: "Rp254.000",
