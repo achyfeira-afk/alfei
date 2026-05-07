@@ -3,24 +3,31 @@
 const products = [
   {
     category: "abaya",
+    name: "Abaya cheongsam modern terbaru cantik elegan",
+    price: "Rp185.000",
+    link: "https://s.shopee.co.id/7VD3AYdtwm",
+    image: "https://i.imgur.com/MSBLR32.png"
+  },
+  {
+    category: "abaya",
     name: "Yasmen abaya dress bahan marbela anti uv aplikasi payet mutiara abaya umroh anti uv simple",
     price: "Rp126.000",
-    link: "https://i.imgur.com/H3EQi82.jpeg",
-    image: "https://down-tx-id.img.susercontent.com/id-11134207-82252-mg2bt9um7958b2.webp"
+    link: "https://s.shopee.co.id/gM5YnDhJI",
+    image: "https://i.imgur.com/1ntvjJ4.jpeg"
+  },
+ {
+    category: "abaya",
+    name: "Abaya Qanita Anti UV Premium Abaya Haji Dan Umroh",
+    price: "Rp169.000",
+    link: "https://s.shopee.co.id/3B3QYhtfr2",
+    image: "https://i.imgur.com/OBQe8gv.jpeg"
   },
  {
     category: "abaya",
     name: "Rizka Hijab - Esra Abaya Set Khimar Bandana anti UV (Ready Stoc",
     price: "Rp379.000",
     link: "https://s.shopee.co.id/2qQaqu9fK9",
-    image: "https://down-bs-id.img.susercontent.com/id-11134207-7ra0u-md4b6awdec5z55.webp"
-  },
- {
-    category: "abaya",
-    name: "Zhafira Abaya/Abayaterbaru/ Abaya mesir/ Abaya jekinian cantik mewah elegan",
-    price: "Rp176.999",
-    link: "https://s.shopee.co.id/AKWbmtPlMy",
-    image: "https://down-tx-id.img.susercontent.com/id-11134207-7ra0s-md42skvgjfo7f7.webp"
+    image: "https://i.imgur.com/oA9C646.jpeg"
   },
  {
     category: "abaya",
@@ -28,6 +35,13 @@ const products = [
     price: "Rp192.000",
     link: "https://s.shopee.co.id/qfWU9OVCK",
     image: "https://down-bs-id.img.susercontent.com/id-11134207-7r98x-lybsk21z34x9de.webp"
+  },
+ {
+    category: "abaya",
+    name: "Zhafira Abaya/Abayaterbaru/ Abaya mesir/ Abaya jekinian cantik mewah elegan",
+    price: "Rp176.999",
+    link: "https://s.shopee.co.id/AKWbmtPlMy",
+    image: "https://i.imgur.com/OBQe8gv.jpeg"
   },
  {
     category: "abaya",
@@ -42,13 +56,6 @@ const products = [
     price: "Rp190.000",
     link: "https://s.shopee.co.id/5q4CZW9Exj",
     image: "https://down-aka-id.img.susercontent.com/id-11134207-7r992-lxtn2s653w5m6d.webp"
-  },
- {
-    category: "abaya",
-    name: "Abaya Qanita Anti UV Premium Abaya Haji Dan Umroh",
-    price: "Rp169.000",
-    link: "https://s.shopee.co.id/3B3QYhtfr2",
-    image: "https://down-tx-id.img.susercontent.com/id-11134207-81ztk-meem8cuaul1j91.webp"
   },
   {
     category: "abaya",
@@ -91,97 +98,6 @@ const products = [
     price: "Rp66.957",
     link: "https://s.shopee.co.id/3VgI0sMArI",
     image: "https://down-tx-id.img.susercontent.com/id-11134207-7rbk0-martsp5r8sv282.webp"
-  },
- {
-    category: "abaya",
-    name: "NEHHAT SADDA ABAYA 2.0",
-    price: "Rp1.011.000",
-    link: "https://s.shopee.co.id/808hFGS1nd",
-    image: "https://down-aka-id.img.susercontent.com/id-11134207-822wu-mlonl4cag6px94.webp"
-  },
- {
-    category: "abaya",
-    name: "Dafinty - Noora Set 3 in 1 Abaya Tunik Set Skirt Pashmina Bahan Premium Crinkle",
-    price: "Rp192.000",
-    link: "https://s.shopee.co.id/7fVqqqVjjg",
-    image: "https://down-aka-id.img.susercontent.com/id-11134207-7r98x-lybsk21z34x9de.webp"
-  },
- {
-    category: "abaya",
-    name: "Rizka Hijab - Shafeeya Abaya Set French Khimar",
-    price: "Rp256.000",
-    link: "https://s.shopee.co.id/7Kt0SYGGTY",
-    image: "https://down-aka-id.img.susercontent.com/sg-11134201-7rep4-m1xkawwi9ein1d.webp"
-  },
- {
-    category: "abaya",
-    name: "Agnes Hijab - Aiza Dress Gamis Putih Lebaran 2026 Terbaru Bordir Bunga Baju Muslim Wanita Abaya Hitam Gaun Pesta Kondangan Mewah Simple Elegan Haji Umroh 850",
-    price: "Rp212.250",
-    link: "https://s.shopee.co.id/7Kt0T9S85Q",
-    image: "https://down-tx-id.img.susercontent.com/id-11134207-7ra0i-mc5h58mlffhv30.webp"
-   },
- {
-    category: "abaya",
-    name: "HUDA ABAYA NATURAL FABRIC LINEN EMBROIDERY | hijab shafiyya | hi.shafiyya",
-    price: "Rp350.000",
-    link: "https://s.shopee.co.id/7ppH4cu4nt",
-    image: "https://down-tx-id.img.susercontent.com/id-11134207-8224o-mkjsc4mz2cqv3e.webp"
-  },
- {
-    category: "abaya",
-    name: "NIQATA - BASMA ABAYA FULL BORDIR TABUR (ANTI UV)",
-    price: "Rp250.000",
-    link: "https://s.shopee.co.id/LjG93nxjd",
-    image: "https://down-tx-id.img.susercontent.com/id-11134207-7rbkb-m6ys2beiam8922.webp"
-  },
- {
-    category: "abaya",
-    name: "Abaya Ashila Crystal Premium Import - Busui Friendly - 2in1 Outer Abaya - Free Belt Tassel - Z BY ZAHRA",
-    price: "Rp270.000",
-    link: "https://s.shopee.co.id/4fsFJmHVOI",
-    image: "https://down-tx-id.img.susercontent.com/id-11134207-8224v-mke49l53bq4j78.webp"
-  },
- {
-    category: "abaya",
-    name: "Abaya Basic Terbaru Abaya Remaja Hitam Umroh Bahan Jetblack Premium Busui Friendly Wudhu Friendly",
-    price: "Rp120.000",
-    link: "https://s.shopee.co.id/1BIN9yjBbW",
-    image: "https://down-tx-id.img.susercontent.com/id-11134207-822wn-mlb8hw2qqupu5b.webp"
-  },
- {
-    category: "abaya",
-    name: "Gamis Alesha Abaya Syar'i Set Hijab Bandana Free Cadar tali Sabrina Anti UV Highquality",
-    price: "Rp190.000",
-    link: "https://s.shopee.co.id/3B3RYFp5RG",
-    image: "https://down-bs-id.img.susercontent.com/id-11134207-7ra0m-mcw3zmupnspj55.webp"
-  },
- {
-    category: "abaya",
-    name: "Little Tale - Safara One Set / Kaftan Baju Kurung Tunik Gamis Abaya Lebaran Wanita",
-    price: "Rp289.000",
-    link: "https://s.shopee.co.id/808hJuFdOj",
-    image: "https://down-bs-id.img.susercontent.com/id-11134207-7rbk0-m6sbdujcfovb10.webp"
-  },
- {
-    category: "abaya",
-    name: "GAMIS PUTIH ORIGINAL BY SI.NE.SA ~ MAHIRA / NANIA / MEDINA / AMARA ABAYA BROKEN WHITE HIAS BORDIR",
-    price: "Rp356.150",
-    link: "https://s.shopee.co.id/60NcwpexMN",
-    image: "https://down-tx-id.img.susercontent.com/id-11134207-822wj-mln280ccks8y08.webp"
-  },
- {
-    category: "abaya",
-    name: "[New Arrival] Eljasmine - Natasha Abaya Gamis Set Pashmina Bandana Instan Azura Premium by Eljasmine",
-    price: "Rp145.000",
-    link: "https://s.shopee.co.id/6Ah39M8PDu",
-    image: "https://down-tx-id.img.susercontent.com/id-11134207-8224y-mh781ysnfrig1c.webp"
-  },
- {
-    category: "abaya",
-    name: "ABAYA HAWA 735 FARZOLLA - Busana Muslim Wanita",
-    price: "Rp230.000",
-    link: "https://s.shopee.co.id/7VCO0nb2ag",
-    image: "https://down-aka-id.img.susercontent.com/id-11134207-8224p-mhoozn26oxz677.webp"
   },
  {
     category: "jaket",
@@ -267,7 +183,6 @@ const products = [
     link: "https://s.shopee.co.id/AUq2mT8LZc",
     image: "https://i.imgur.com/aI7mmbO.jpeg"
   },
-
  {
     category: "fashion",
     name: "Sarung BHS Classic Gold Premium motif DGA SSF DKA GOLD Sarung Tenun Halus Songket Pria Dewasa",
@@ -303,116 +218,5 @@ const products = [
     link: "https://s.shopee.co.id/16QKGtnfC",
     image: "https://down-tx-id.img.susercontent.com/id-11134207-8224w-mkklmwqfrb464a.webp"
   },
-{
-  category: "jaket",
-  name: "Dzakileather- Jaket Crop Wanita Saku Kancing Depan Tidak Berban Bawah",
-  price: "Rp153.190",
-  link: "https://s.shopee.co.id/8ASBMYPDpR",
-  image: "https://down-bs-id.img.susercontent.com/id-11134207-7r98p-lunnydeb9k0t7e.webp",
-},
- {
-    category: "jaket",
-    name: "Jaket Sweater Wanita Jaket Cewe Fleece Outerwear",
-    price: "Rp72.000",
-    link: "https://s.shopee.co.id/LjK0tBpAm",
-    image: "https://down-bs-id.img.susercontent.com/id-11134207-7rbk6-m698rn3y3kr76d.webp"
-  },
- {
-    category: "jaket",
-    name: "Wispie Level Top | Atasan Jaket Fleece Wanita Zipper Maroon Burgundy",
-    price: "Rp172.900",
-    link: "https://s.shopee.co.id/9ztppETSCH",
-    image: "https://down-ws-id.img.susercontent.com/id-11134207-81ztm-mer1dhy31h51bd.webp"
-  },
- {
-    category: "jaket",
-    name: "Jaket Crop Wanita / Jaket Wanita Crop Top / Jaket Wanita Kekinian / Jaket Wanita Simple / Jaket Wanita Korea / Jaket Crop / Jaket Formal Wanita",
-    price: "Rp155.200",
-    link: "https://s.shopee.co.id/4Aw3AJ7esF",
-    image: "https://down-ws-id.img.susercontent.com/id-11134207-7r98p-lydqv2ychzjccd.webp"
-  },
- {
-    category: "jaket",
-    name: "Jaket jeans Wanita Hoodie sleting zipper Ld 114 Resleting kekinian",
-    price: "Rp66.750",
-    link: "https://s.shopee.co.id/BPuP3IXMj",
-    image: "https://down-ws-id.img.susercontent.com/id-11134207-7rasg-m5l1qovro5tu29.webp"
-  },
- {
-    category: "jaket",
-    name: "JAKET BOMBER VELTICS SERIES PREMIUM JAKET MOTOR KEREN WATERPROOF ANTI ANGIN",
-    price: "Rp128.000",
-    link: "https://s.shopee.co.id/2LUOzIYgzh",
-    image: "https://down-aka-id.img.susercontent.com/id-11134207-822wq-mlqm1myeozk04f.webp"
-  },
- {
-    category: "jaket",
-    name: "Jaket GO JEK Terbaru G0 T0 Waterproof / Jaket Ojol Best Seller / Jaket Motor Tidak Gerah Nyaman DIgunakan",
-    price: "Rp72.000",
-    link: "https://s.shopee.co.id/7AZelIck33",
-    image: "https://down-aka-id.img.susercontent.com/id-11134207-7rbk9-m6wqbfpw0ah5f6.webp"
-  },
- {
-    category: "jaket",
-    name: "Owngrace Jaket Olahraga Anti Uv Wanita Polos Lengan Panjang Untuk Yoga/Gym/Fitness Sport/zumba",
-    price: "Rp93.899",
-    link: "https://s.shopee.co.id/6Ah7ZnabqO",
-    image: "https://down-aka-id.img.susercontent.com/id-11134207-7ra0g-mdpx5o5fgd58f1.webp"
-  },
- {
-    category: "jaket",
-    name: "JAKET JEANS CEWEK MURAH JUMBO OVER SIZE M - XXXL LD 120cm MUAT 95KG JAKET JEANS WANITA JAKET Nanstore09",
-    price: "Rp108.300",
-    link: "https://s.shopee.co.id/6Ah7akqASH",
-    image: "https://down-tx-id.img.susercontent.com/id-11134207-7rbk2-macdowjqvkrgfd.webp"
-  },
- {
-    category: "jaket",
-    name: "BLUERED Jaket Parasut wanita/navy/Bolak Balik/FashionJaket Motor/OOTD",
-    price: "Rp108.300",
-    link: "https://s.shopee.co.id/7AZemslU0X",
-    image: "https://down-tx-id.img.susercontent.com/id-11134207-82252-mjc0pgyfu8zm97.webp"
-  },
- {
-    category: "jaket",
-    name: "Hoodie Zipper Jumbo Polos Pria Wanita L XL XXL XXXL XXXXL XXXXXL",
-    price: "Rp59.669",
-    link: "https://s.shopee.co.id/30k5qXd1NB",
-    image: "https://down-bs-id.img.susercontent.com/id-11134207-7r98z-lu7zpw7w07o27c.webp"
-  },
-{
-    category: "jaket",
-    name: "MIGHTYANYWHERE- Jaket Olahraga Parasut Polos Pria/Wanita Sauna Suit, Jogging, Lari, Bersepeda, Despo, Gym Fitnes, Senam, Yoga, Running",
-    price: "Rp73.115",
-    link: "https://s.shopee.co.id/7VCVDNAuiy",
-    image: "https://down-bs-id.img.susercontent.com/id-11134207-7rbk8-ma0rg3y3iinh30.webp"
-  },
-{
-    category: "jaket",
-    name: "ZAHIRA LONG OUTER PREMIUM BY ALIETHA JACKET WANITA MUSLIMAH KEKINIAN",
-    price: "Rp177.209",
-    link: "https://s.shopee.co.id/3B3W5hB1Sw",
-    image: "https://down-bs-id.img.susercontent.com/id-11134207-7rbk6-mb37350cu2am0d.webp"
-  },
-{
-    category: "jaket",
-    name: "JAKET POLAN-Polan Jaket Fashion Korean/Jaket wanita kekinian",
-    price: "Rp57.900",
-    link: "https://s.shopee.co.id/16ULm4DTB",
-    image: "https://down-aka-id.img.susercontent.com/2e2ea33cf4a9543273803a1b5953b639.webp"
-  },
-{
-    category: "jaket",
-    name: "JAKET LUCU WANITA KOREA - COOKIE BEAR BUTTON - JACKET HOODIE TEBAL",
-    price: "Rp56.850",
-    link: "https://s.shopee.co.id/8ASC559zRT",
-    image: "https://down-bs-id.img.susercontent.com/id-11134207-7rasm-m1w9gqpmkeovd8.webp"
-  },
-{
-    category: "jaket",
-    name: "JAYA.Co Jaket Bomber Hoodie Basic SINTIA",
-    price: "Rp34.555",
-    link: "https://s.shopee.co.id/5VRR2hOEOE",
-    image: "https://down-bs-id.img.susercontent.com/24a8500c170543e125baaf16e0773a20.webp"
-  },
+
 ];
